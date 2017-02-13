@@ -1,14 +1,18 @@
 {
-	"name":"Testle Problem I",
+	"name": "Testle Problem II",
 	"timelimit":1000,
 	"memlimit":65536,
-	"compile":"makefile",
+	"compile":"g++",
 	"score":"rate",
 	"check":"diff",
 	"test":[
 		{
 			"data":[1],
-			"weight":100
+			"weight":50
+		},
+		{
+			"data":[2],
+			"weight":50
 		}
 	]
 }
